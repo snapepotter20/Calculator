@@ -1,0 +1,87 @@
+.container {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 220, 109);
+    margin: 3%;
+}
+
+.block1 {
+    margin: 4%;
+}
+
+.block2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4%;
+}
+
+.block2_input1 {
+    width: 120px;
+    height: 40px;
+    margin-left: 200px;
+}
+
+.block2_input2 {
+    width: 120px;
+    height: 40px;
+    margin-right: 200px;
+}
+
+.block2 > button {
+    justify-content: center;
+    text-align: center;
+   height: 40px;
+   width: 60px;
+   margin-right: 100px;
+   padding-bottom: 53px ;
+}
+
+.block2 > button:hover {
+    cursor: pointer;
+}
+
+.block3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4%;
+    padding: 10px;
+}
+
+.block3_btn {
+    width: 69px;
+    height: 69px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+}
+
+.block3_btn:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.block4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4%;
+    padding: 10px 10px;
+}
+
+.block4 > button {
+    width: 100px;
+    height: 60px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+.block4 > button:hover{
+    cursor: pointer;
+    background-color: rgb(83, 196, 83);
+    color: white;
+}
